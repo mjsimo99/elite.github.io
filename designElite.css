@@ -1,0 +1,225 @@
+body{
+
+    background-image: url(pexels-martin-péchy-304664.jpg);
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #1f212f ;
+  }
+  .space{
+    margin-left:400px;
+
+
+ }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    
+    padding: 14px 70px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active1{
+    background-color: #ac3838;
+    
+  }
+  .active {
+    background-color: #39bc7b ;
+  }
+
+ 
+ 
+ #p1{
+    font-family: 'Silkscreen', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin: 15%;
+    padding-right: 5%;
+
+ }
+/* _________________________________________________________ */
+
+.box-2{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 { background-color: #1f212f; }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+
+
+/* 
+========================
+      BUTTON TWO
+========================
+*/
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+   left: 0;
+   bottom: 0;
+}
+
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+/*table ____________________________________________________________ table */
+h2{
+  text-align: center;
+  margin-top:  150px;
+}
+
+.border {
+  border-color: #1f212f;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 202px;
+  
+  width: 1350px;
+  
+  
+}
+/*form_______________________________________________________________form  */
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], textarea  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=password]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form{
+
+  border-radius: 5px;
+  background-color: #1f212f;
+  padding: 20px ;
+  margin: 0 auto; 
+  margin-top: 30px;
+  width:800px;
+  margin-bottom:  56px;
+}
+h3{
+  text-align: center;
+  text-shadow: 0 0 2px red;
+
+ 
+}
+label{
+  color : white ; 
+}
+/* login___________________________________login */
+.login{
+
+  border-radius: 5px;
+  background-color: #1f212f;
+  padding: 20px ;
+  margin: 0 auto; 
+  margin-top: 30px;
+  width:800px;
+  margin-bottom:  178px;
+}
+#log1{
+    text-shadow: 0 0 2px #39bc7b ;
+
+    text-align: center;
+    margin-top:  130px;
+    color: #ac3838;
+  
+}
+/* singup___________________________________singup */
+.singup{
+
+  border-radius: 5px;
+  background-color: #1f212f;
+  padding: 20px ;
+  margin: 0 auto; 
+  margin-top: 30px;
+  width:800px;
+  margin-bottom:  90px;
+}
+#sin1{
+    text-shadow: 0 0 2px #ac3838;
+
+    text-align: center;
+    margin-top:  65px;
+    color: #39bc7b;
+  
+}
