@@ -44,7 +44,8 @@ ul {
     font-family: 'Silkscreen', cursive;
     font-size: 70px;
     text-align: center;
-    margin: 15%;
+    margin:   170px;
+    margin-bottom: 120px;
     padding-right: 5%;
 
  }
@@ -222,4 +223,46 @@ label{
     margin-top:  65px;
     color: #39bc7b;
   
+}
+/* button  */
+.click {
+  border-radius: 4px;
+  background-color: #11aad0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 270px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button{
+  text-align: center;
+  margin-bottom: 178px;
+}
+.click span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.click span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.click:hover span {
+  padding-right: 25px;
+}
+
+.click:hover span:after {
+  opacity: 1;
+  right: 0;
 }
